@@ -1,4 +1,4 @@
-# 🛡️ Smart Child Monitoring System
+#  Smart Child Monitoring System
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-ESP32-blue?style=for-the-badge&logo=espressif" />
@@ -12,7 +12,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 The **Smart Child Monitoring System** is an embedded IoT solution designed to enhance child safety in public spaces. It tracks a child's live GPS location and wirelessly transmits the data over LoRa to a parent-side receiver. A safety alert is triggered whenever the child moves beyond a defined boundary, calculated using the **Haversine algorithm**.
 
@@ -20,7 +20,7 @@ The entire system operates without GSM, SIM, or internet connectivity — making
 
 ---
 
-## ✨ Features
+##  Features
 
 - 📍 **Real-Time GPS Tracking** — Live latitude & longitude monitoring via NEO-6M GPS module
 - 📡 **LoRa Wireless Communication** — 50-meter range wireless data transfer without SIM or internet
@@ -31,7 +31,7 @@ The entire system operates without GSM, SIM, or internet connectivity — making
 
 ---
 
-## 🧰 Hardware Components
+##  Hardware Components
 
 | Component | Description |
 |-----------|-------------|
@@ -42,7 +42,7 @@ The entire system operates without GSM, SIM, or internet connectivity — making
 
 ---
 
-## 🗂️ Repository Structure
+##  Repository Structure
 
 ```
 Smart-Child-Monitoring-System/
@@ -58,7 +58,7 @@ Smart-Child-Monitoring-System/
 
 ---
 
-## ⚙️ System Architecture
+##  System Architecture
 
 ```
 [Child Side]                          [Parent Side]
@@ -78,7 +78,7 @@ Smart-Child-Monitoring-System/
 
 ---
 
-## 📡 Communication Protocols
+##  Communication Protocols
 
 | Protocol | Used Between |
 |----------|-------------|
@@ -87,7 +87,7 @@ Smart-Child-Monitoring-System/
 
 ---
 
-## 📐 Distance Calculation — Haversine Algorithm
+##  Distance Calculation — Haversine Algorithm
 
 The system uses the **Haversine formula** to compute the real-world distance between the parent's fixed reference point and the child's current GPS coordinates.
 
@@ -101,7 +101,7 @@ When `d` exceeds the configured safe radius, a **safety alert** is triggered on 
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -136,7 +136,7 @@ When `d` exceeds the configured safe radius, a **safety alert** is triggered on 
 
 ---
 
-## 📷 Screenshots
+##  Screenshots
 
 | Block Diagram | Prototype | Result |
 |:---:|:---:|:---:|
@@ -144,7 +144,7 @@ When `d` exceeds the configured safe radius, a **safety alert** is triggered on 
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - [ ] Extend LoRa range with external antenna
 - [ ] Add buzzer/vibration alert on parent device
@@ -154,17 +154,16 @@ When `d` exceeds the configured safe radius, a **safety alert** is triggered on 
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
 **Vaghasiya Yash**
 - GitHub: [@Vaghasiya-Yash](https://github.com/Vaghasiya-Yash)
 
 ---
 
-## 📄 License
+##  License
 
 This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-<p align="center">Made with ❤️ for child safety</p>
